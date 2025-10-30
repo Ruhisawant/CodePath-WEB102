@@ -1,49 +1,29 @@
-# Cap!
-Cap! is a web application that uses the ApiFlash API to take screenshots of websites with customizable parameters. Users can adjust various screenshot attributes, view their created images, and maintain a gallery of all their captured screenshots.
+# 📹 Cap!
+**Cap** is a web app that captures high quality screenshots of websites using the ApiFlash API. Users can enter a site URL, adjust query parameters, and generate screenshots directly in the browser. This lab introduces external API calls, parameter handling, and dynamic state updates in a modern frontend workflow.
 
-## Features
-- **Customizable Screenshots**: Add multiple parameters to customize your website screenshots including format, dimensions, and ad/cookie banner removal.
-- **Real-time Query Preview**: See your API query string update in real-time as you adjust parameters.
-- **Screenshot Gallery**: View all previously captured screenshots in an organized gallery.
-- **Query Quota Tracker**: Monitor your remaining API calls to stay within your monthly limit.
+## 🚀 Features
+- **Website Screenshot Capture**: Enter a URL and retrieve a live screenshot through the ApiFlash API
+- **Custom Query Parameters**: Provide at least three configurable parameters, for example width, height, or full page
+- **Screenshot Gallery**: Display previously generated screenshots on the same page
+- **Async API Handling**: Make static and dynamic requests using async and await
+- **State Management**: Save API results in state and render updates in real time
+- **Query Limit Display**: Show whether the user has reached the ApiFlash quota by calling a usage endpoint
 
-## Preview
+## 📸 Preview
 <img src="./public/preview.gif" alt="Cap Preview" width="850"/>
 
-## Installation
-1. Clone the repository:
-	```sh
-	git clone https://github.com/ruhisawant/cap.git
-	cd cap
-	```
+## 🛠️ Technologies Used
+- **JavaScript ES6+**: API calls, parameter handling, and state logic
+- **React** *(if you used it for your implementation)*: UI rendering and component structure
+- **Fetch API**: Communicating with ApiFlash endpoint
+- **CSS**: Layout and styling
+- **ApiFlash API**: Automated website screenshots
 
-2. Install dependencies:
-	```sh
-	npm install
-	```
-
-3. Create a `.env` file in the root directory and add your ApiFlash access key:
-	```
-	VITE_APP_ACCESS_KEY = "your_apiflash_key_here"
-	```
-
-4. Start the development server:
-	```sh
-	npm run dev
-	```
-
-## Technologies Used
-- React
-- Vite
-- ApiFlash API
-- JavaScript (ES6+)
-- CSS (with Flexbox)
-
-## Project Structure
+## 📁 Project Structure
 ```
 cap/
 ├── src/
-│   ├── Components/
+│   ├── components/
 │   │   ├── APIForm.jsx
 │   │   └── Gallery.jsx
 │   ├── App.jsx
@@ -52,6 +32,3 @@ cap/
 ├── .env
 └── package.json
 ```
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
