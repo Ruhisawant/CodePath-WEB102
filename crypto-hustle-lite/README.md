@@ -1,63 +1,29 @@
-# Crypto Hustle
+# 💰 Crypto Hustle Lite
+Crypto Hustle Lite is a React application that displays real time cryptocurrency data such as price, market cap, and percent change. Users can browse a list of at least 30 coins, search by symbol, and explore key price data through an intuitive interface. This lab demonstrates API integration, state management, and conditional rendering in a modern web environment.
 
-Crypto Hustle is a web application that displays real-time cryptocurrency data and news using the CryptoCompare API. Users can explore the top-performing coins, check live prices, search for specific cryptocurrencies, and stay informed with the latest market headlines, all within an intuitive, modern interface.
+## 🚀 Features
+- **30+ Cryptocurrencies Displayed**: View coin image, name, symbol, and live USD price sourced from an external crypto API.
+- **Search by Symbol**: Filter the coin list instantly by typing a currency symbol in the search bar.
+- **Market Data Preview**: Quick access to price, percent change, and other key information.
+- **Responsive UI Styling**: Clean and simple layout formatted with custom CSS.
+- **Asynchronous API Fetching**: Data loaded using `useEffect()` and async functions.
+- **Loading and Fallback States**: Conditional rendering to handle loading and empty search results.
+- **Crypto News Panel**: Optional side pane that displays real time crypto headlines.
+- **News Cards**: Organized feed for browsing relevant cryptocurrency news articles.
 
-## Features
-
-* **Live Crypto Prices**: View the top 10 cryptocurrencies with real-time USD price updates.
-* **Dynamic Search Filter**: Instantly search and filter through the coin list.
-* **Crypto News Feed**: Stay informed with a constantly updating feed of crypto headlines via the CryptoCompare News API.
-* **Side Navigation Bar**: A fixed, scrollable sidebar featuring curated news cards in a clean layout.
-* **Clean Card-Based UI**: Dark mode styling with rounded corners, soft shadows, and smooth hover effects for a sleek user experience.
-* **Responsive Design** *(Stretch Feature)*: Adapts to smaller screens and mobile layouts for accessibility across devices.
-* **Interactive Visual Feedback** *(Stretch Feature)*: Hover animations and glowing effects for enhanced user engagement.
-* **Expanded Coin Data** *(Stretch Feature)*: Filters out coins with incomplete algorithm or proof type info for data relevance.
-
-## Preview
-
+## 📸 Preview
 <img src="./public/preview.gif" alt="Crypto Hustle Lite Preview" width="850"/>
 
-## Installation
+## 🛠️ Technologies Used
+- **React**: Component-based UI and state management
+- **JavaScript**: Core logic, API requests, and array methods for data handling
+- **Vite**: Fast dev environment and project bundling
+- **CSS**: Custom styling for layout, responsiveness, and visual polish
+- **[CryptoCompare API](https://min-api.cryptocompare.com/)**: Real-time cryptocurrency and news data
 
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/ruhisawant/crypto-hustle.git
-   cd crypto-hustle
-   ```
-
-2. Install dependencies:
-
-   ```sh
-   npm install
-   ```
-
-3. Create a `.env` file in the root directory and add your CryptoCompare API key:
-
-   ```
-   VITE_APP_API_KEY = "your_cryptocompare_key_here"
-   ```
-
-4. Start the development server:
-
-   ```sh
-   npm run dev
-   ```
-
-5. Open your browser and visit the local development URL (usually [http://localhost:5173](http://localhost:5173)).
-
-## Technologies Used
-
-* React
-* Vite
-* JavaScript (ES6+)
-* CSS3 (Flexbox, custom dark theme)
-* [CryptoCompare API](https://min-api.cryptocompare.com/)
-
-## Project Structure
-
+## 📁 Project Structure
 ```
-crypto-hustle/
+crypto-hustle-lite/
 ├── src/
 │   ├── components/
 │   │   ├── CoinInfo.jsx
@@ -69,7 +35,3 @@ crypto-hustle/
 ├── .env
 └── package.json
 ```
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
