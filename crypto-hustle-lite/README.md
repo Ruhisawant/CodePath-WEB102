@@ -1,5 +1,5 @@
 # 💰 Crypto Hustle Lite
-Crypto Hustle Lite is a React application that displays real time cryptocurrency data such as price, market cap, and percent change. Users can browse a list of at least 30 coins, search by symbol, and explore key price data through an intuitive interface. This lab demonstrates API integration, state management, and conditional rendering in a modern web environment.
+**Crypto Hustle Lite** is a React application that displays real time cryptocurrency data such as price, market cap, and percent change. Users can browse a list of at least 30 coins, search by symbol, and explore key price data through an intuitive interface. This lab demonstrates API integration, state management, and conditional rendering in a modern web environment.
 
 ## 🚀 Features
 - **30+ Cryptocurrencies Displayed**: View coin image, name, symbol, and live USD price sourced from an external crypto API.
