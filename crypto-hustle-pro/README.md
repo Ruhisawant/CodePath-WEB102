@@ -1,5 +1,5 @@
 # 💰 Crypto Hustle Pro
-Crypto Hustle Pro expands on the Crypto Hustle Lite application by adding detailed cryptocurrency views, dynamic routing, and richer data from the CryptoCompare API. Users can click on any coin to load a dedicated details page that includes description data, algorithm information, and price history. This lab demonstrates advanced API usage, React Router configuration, and interactive data visualizations.
+**Crypto Hustle Pro** expands on the Crypto Hustle Lite application by adding detailed cryptocurrency views, dynamic routing, and richer data from the CryptoCompare API. Users can click on any coin to load a dedicated details page that includes description data, algorithm information, and price history. This lab demonstrates advanced API usage, React Router configuration, and interactive data visualizations.
 
 ## 🚀 Features
 - **Clickable Coin List**: Select any cryptocurrency to view detailed information
