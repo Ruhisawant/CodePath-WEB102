@@ -1,4 +1,4 @@
-# Samosa Selector
+# 😋 Samosa Selector
 **Samosa Selector** is a small, local clicker game built with React. Click the samosa image to collect samosas, then spend them on upgrades to increase how many samosas you earn per click.
 
 ## 🚀 Features
