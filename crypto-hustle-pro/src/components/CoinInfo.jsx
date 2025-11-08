@@ -19,7 +19,6 @@ const CoinInfo = ({ image, name, symbol }) => {
         setPrice(json)
       } catch (error) {
         if (error.name === "AbortError") {
-          // request was aborted intentionally on unmount - ignore
         } else {
           console.error(error)
         }
